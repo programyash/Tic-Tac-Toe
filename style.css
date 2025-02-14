@@ -1,0 +1,137 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: blue;
+    font-size: 40px;
+    margin-bottom: 40px;
+    letter-spacing: 3px;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: skyblue;
+}
+
+.game-box{
+    border-radius: 8px;
+    background-color: blue;
+    width: 25%;
+}
+
+.msg-container {
+    text-align: center;
+}
+
+.win {
+    font-weight: bold;
+    font-size: 32px;
+    color: #008000;
+}
+
+.btns{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.newbtn {
+    cursor: pointer;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 11px;
+    font-weight: bold;
+    background-color: rgb(245, 69, 245);;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+}
+
+.boxes {
+    min-width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.row1 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.row2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.row3 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box {
+    border: 2px solid rgb(245, 69, 245);;
+    height: 10vh;
+    width: 6vw;
+    font-size: 4vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.box1,.box2,.box3{
+    border-top: none;
+}
+
+.box1{
+    border-left: none;
+}
+
+.box3{
+    border-right: none;
+}
+
+.box4{
+    border-left: none;
+}
+
+.box6{
+    border-right: none;
+}
+
+.box7{
+    border-left: none;
+}
+
+.box9{
+    border-right: none;
+}
+
+.box7,.box8,.box9{
+    border-bottom: none;
+}
+.reset {
+    text-align: center;
+}
+
+.start{
+    cursor: pointer;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 11px;
+    font-weight: bold;
+    background-color: rgb(245, 69, 245);;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+}
